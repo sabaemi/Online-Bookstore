@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Vazir.eot');
+  src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir.woff2') format('woff2'), 
+  url('fonts/Vazir.woff') format('woff'), 
+  url('fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Vazir-Bold.eot');
+  src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('fonts/Vazir-Bold.woff') format('woff'), 
+  url('fonts/Vazir-Bold.ttf') format('truetype');
+ }
+   body {
+     font-family: 'Vazir', Arial, sans-serif;
+ font-weight:normal;
+ font-size:12px;
+     background:#b0a9fc;
+     color: #1e549c
+     /* #f1f1f1; */
+   }
+ 
+   .vasat{
+     margin-top: 100px;
+     margin-bottom: 100px;
+     height: 500px;
+     background: white;
+     text-align: center;
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+     border-radius: 30px;
+ }
+ .myform{
+   margin:auto;
+   width:80%;
+ }
+ .form-group{
+   margin-top:30px;
+ }
+ .form-control{
+   margin-top:2%;
+   width:100%;
+   border-radius:20px!important;
+ }
+ .form-control:focus{
+   box-shadow: none !important;
+   border-color: #1e549c !important;
+ }
+ .btn{
+   margin-top:10%;
+   margin-bottom:2%;
+   width:95%;
+   background-color:#1e549c ;
+   color:white;
+   border-radius:20px;
+   font-size:12px;
+ }
+ .btn2{
+   background-color:white !important;
+   color:#1e549c !important;
+   border-color: #1e549c !important;
+ }
+ .btn:focus{
+   box-shadow: none ;
+   border-color: none;
+ }
+ .btn2:hover{
+   color:white!important;
+   background-color:#1e549c !important;
+ }
+ a{
+   color:black;
+ }
+ a:hover{
+   color:#7d7e80;
+ }

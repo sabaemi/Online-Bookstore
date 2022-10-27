@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Vazir.eot');
+  src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir.woff2') format('woff2'), 
+  url('fonts/Vazir.woff') format('woff'), 
+  url('fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Vazir-Bold.eot');
+  src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('fonts/Vazir-Bold.woff') format('woff'), 
+  url('fonts/Vazir-Bold.ttf') format('truetype');
+ }
+   body {
+     font-family: 'Vazir', Arial, sans-serif;
+ font-weight:normal;
+ font-size:12px;
+     background:#f1f1f1;
+   }
+ .navbar-custom {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+   background-color: rgba(255, 255, 255, .15); 
+   overflow: auto;
+   white-space: nowrap;
+   font-weight:bold;
+ }
+ 
+ .navbar-custom a {
+   display: inline-block;
+   color: #ffffff;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+ }
+ 
+ .navbar-custom a:hover {
+   color: rgb(0, 0, 0)!important;
+   transform: scale(1.05);
+ }
+   #btag{
+     color: #1e549c;
+     margin-left:50px;
+   }
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #1e549c !important;
+   font-size:12px;
+   font-family: 'Vazir', Arial, sans-serif;
+   font-weight:bold;
+   opacity: 1; /* Firefox */
+ }
+ .btn{
+   background-color:#1e549c !important;
+   color:white;
+   border-radius:20px 0px 0px 20px!important;
+ }
+ .btn:focus{
+   box-shadow: none !important;
+   border-color: none !important;
+ }
+ .form-control{
+   border-radius:0px 20px 20px 0px!important;
+ }
+ .form-control:focus{
+   box-shadow: none !important;
+   border-color: #1e549c !important;
+ }
+ .jumbotron{
+   background-color: #525354;
+   color:white;
+   font-size:14px;
+ }
+ .jumbotron a{
+   color:white;
+ }
+ .jumbotron a:hover{
+   color: #7d7e80 !important;
+ }
+
+
+ .table{
+  margin-top:60px !important;
+   margin-bottom:40px !important;
+   /* margin:auto !important; */
+   text-align: right;
+   width: auto;
+    float: right;
+    
+ }
+ .bookimage{
+  display: block;
+   width:200px !important;
+   height:auto;
+   margin: auto;
+   margin-top:40px;
+   margin-bottom:40px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .info{
+  margin-top:80px !important;
+   margin-bottom:40px !important;
+   /* margin-top:100%!important; */
+ }
+ p{
+  font-family: 'Vazir', Arial, sans-serif;
+ font-weight:normal;
+ font-size:14px; 
+ }
+ .descr{
+   padding:30px;
+   padding-right:70px;
+  /* padding-top:30px !important;
+   padding-bottom:40px !important; */
+ }
+
+ .btn2{
+   /* float:center; */
+   margin-left:10%;
+  margin-top:18%;
+   /* margin-bottom:2%; */
+   width:120px;
+   background-color:#1e549c ;
+   color:white;
+   border:2px solid #1e549c;
+   border-radius:20px;
+   font-size:12px;
+   padding:6px;
+ }
+
+ .btn-link {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #0000EE;
+    padding: 0;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: inherit;
+}

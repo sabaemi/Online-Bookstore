@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Vazir.eot');
+  src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir.woff2') format('woff2'), 
+  url('fonts/Vazir.woff') format('woff'), 
+  url('fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Vazir-Bold.eot');
+  src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('fonts/Vazir-Bold.woff') format('woff'), 
+  url('fonts/Vazir-Bold.ttf') format('truetype');
+ }
+   body {
+     font-family: 'Vazir', Arial, sans-serif;
+ font-weight:normal;
+ font-size:12px;
+     background:#f1f1f1;
+   }
+ .navbar-custom {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+   background-color: rgba(255, 255, 255, .15); 
+   overflow: auto;
+   white-space: nowrap;
+   font-weight:bold;
+ }
+ 
+ .navbar-custom a {
+   display: inline-block;
+   color: #ffffff;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+ }
+ 
+ .navbar-custom a:hover {
+   color: rgb(0, 0, 0)!important;
+   transform: scale(1.05);
+ }
+   #btag{
+     color: #1e549c;
+     margin-left:50px;
+   }
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #1e549c !important;
+   font-size:12px;
+   font-family: 'Vazir', Arial, sans-serif;
+   font-weight:bold;
+   opacity: 1; /* Firefox */
+ }
+ .btn{
+   background-color:#1e549c !important;
+   color:white;
+   border-radius:20px 0px 0px 20px!important;
+ }
+ .btn:focus{
+   box-shadow: none !important;
+   border-color: none !important;
+ }
+ .form-control{
+   border-radius:0px 20px 20px 0px!important;
+ }
+ .form-control:focus{
+   box-shadow: none !important;
+   border-color: #1e549c !important;
+ }
+ 
+ #firstinner {
+   padding: 1em;
+ }
+ .list-group a:hover{
+   text-decoration:none!important;
+   color:black!important;
+ }
+ .list-group-item{
+   background:#f1f1f1 !important;
+   border:none;
+   color:black;
+ }
+ .card{
+   background:#f1f1f1 !important;
+   border:none;
+   font-family: 'Vazir', Arial, sans-serif;
+ font-weight:normal;
+ font-size:14px;
+ }
+ .card img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%!important;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+ }
+ .carousel-control-prev,
+ .carousel-control-next {
+   background-color: #e1e1e1;
+   width: 5vh;
+   height: 5vh;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ 
+ .jumbotron{
+   background-color: #525354;
+   color:white;
+   font-size:14px;
+ }
+ .jumbotron a{
+   color:white;
+ }
+ .jumbotron a:hover{
+   color: #7d7e80 !important;;
+ }
+
+ @media (max-width: 1200px) {
+  .container.carousel-inner{
+    padding:0px!important;
+  }
+}
+@media (max-width: 993px) {
+  .container.carousel-item{
+    padding:0px!important;
+  }
+}
+@media (max-width: 768px) {
+  .list-group.list-group-horizontal{
+    padding:0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .list-group-item.flex-fill{
+    padding:0px !important;
+  }
+}
